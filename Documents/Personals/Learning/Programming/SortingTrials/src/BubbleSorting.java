@@ -3,9 +3,7 @@ public class BubbleSorting {
 		//this is a simple algorithm for sorting	
 		 public static void main(String args[])
 		 {
-		    //int  arr[]={950,20,115,30,56,5,410};
 			int  arr[]={5,15,20,30,40,75,101}; 
-		  //bubbleSorting(arr);
 		  arr = bubbleSorting(arr);
 		  for (int i=0; i<arr.length ;i++) {
 			 System.out.print(arr[i]+ " ");
